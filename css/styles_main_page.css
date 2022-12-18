@@ -1,0 +1,96 @@
+
+.page-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background-color: #607d8b;
+  border-radius: 4px;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+.logo {
+  flex-basis: auto;
+}
+.navigation {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+}
+.nav-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav-buttons .item {
+  display: block;
+  padding: 10px;
+  border-radius: 4px;
+  text-decoration: none;
+  color: black;
+  background-color: #fff;
+}
+
+.item {
+  display: box;
+}
+.nav-buttons  > .item:not(:last-child) {
+  margin-right: 20px;
+}
+
+
+.letter{
+  display: flex;
+  flex-basis: auto;
+  min-width: 500px;
+  max-width: 500px;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px;
+  background-color: tomato;
+  border-radius: 10px;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    }
+
+  .box_letter{
+  display: flex;
+  flex-basis: auto;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background-color: tomato;
+  border-radius: 10px;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    }
+
+<!-- Служебная информация -->
+p {
+  font-size: 14px;
+}
+a {
+  text-decoration: none;
+}
+.link {
+  text-decoration: underline;
+  color: teal;
+  cursor: pointer;
+}
+.link:hover {
+  color: tomato;
+}
+.link:visited {
+  color: #BC8F8F;
+}
+
+.title-1 {
+font-family: brush script mt;
+}
+
+.article-main::first-letter {
+  font-family: 'Tahoma', serif;
+  font-size: 32px;
+  color: #f44336;

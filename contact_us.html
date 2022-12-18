@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head><!-- Служебная информация -->
+    <link rel="stylesheet" href="./css/styles_main_page.css" />
+    <title>North Pole INC.</title> <!-- отображается во вкладке браузера -->
+
+    <meta charset="utf-8" />
+    <meta name="North Pole INC." content="Send letter to Santa" />
+
+  </head>
+
+  <body>
+
+    <header class="page-header">
+
+       <div>
+         <a class="logo" href="">Logo</a>
+       </div>
+
+       <div class="navigation">
+          <ul class="nav-buttons">
+          <li class="item"><a href="/" class="link1">Home page</a></li>
+          <li class="item"><a href="/pictures" class="link1">Pictures</a></li>
+          <li class="item"><a href="/contact_us" class="link1">Contacts</a></li>
+          </ul>
+       </div>
+
+
+    </header>
+
+    <main   class="box_letter">
+        <div class="letter">
+          <form name="signup_form" autocomplete="on" novalidate method="POST">
+            <label>
+              &nbsp&nbspDear Santa , my name is <input type="text" name="username" autofocus placeholder="Alex Black" />,
+                this year I was <br> a good <input type="checkbox" name="person_type" value="good" checked />
+                <select name="sex">
+                <option value="boy">boy</option>
+                <option value="girl">girl</option>
+                </select>.
+                &nbsp&nbspIn this letter, I want to ask you:<br>
+                <textarea name="letter_content" rows="15"cols="60" maxlength="300" style="background-color:#99FFFF;"
+                          placeholder="Type your wish here..."></textarea><br>
+                My email for feedback:<input type="email" name="email" placeholder="example@mail.com">.<br>
+                &nbsp&nbspBest regards.
+            </label>
+              <br>
+              <br>
+
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+
+    </main>
+
+    <footer>
+      <p>All rights reserved. &copy;Alex.WEB</p>
+    </footer>
+
+  </body>
+
+</html>
